@@ -77,7 +77,7 @@ function App() {
   }
 
   const handleConvert = () => {
-    const fileName = 'test.xlsx';
+    const fileName = 'dados.xlsx';
 
     const ws = xlsx.utils.json_to_sheet(persons);
     const wb = xlsx.utils.book_new();
