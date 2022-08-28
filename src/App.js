@@ -120,7 +120,7 @@ function App() {
       <h1>Importar dados de cliente para a planilha</h1>
       <Form onSubmit={handleSubmit}>
    
-      <Input type="number" name="contrato" label="Número do contrato"/>
+      <Input name="contrato" label="Número do contrato"/>
 
       <Input name="nome" label="Nome do associado" />
       <Input className="text-large" name="obs" label="Observações" />
